@@ -137,3 +137,29 @@ The backend provides the following RESTful API endpoints for authentication, tra
 | GET    | `/api/budget`                | Get the current month’s budget            |
 | POST   | `/api/budget`                | Set or update the monthly budget          |
 
+
+![Screenshot (1414)](https://github.com/user-attachments/assets/7772ba93-e77e-4f6f-a5c7-40c71aaf2671)
+
+
+![Screenshot (1415)](https://github.com/user-attachments/assets/5db348b6-e97c-4dfa-aa63-2f315578841f)
+
+
+
+![Screenshot (1416)](https://github.com/user-attachments/assets/afe4e349-e29e-4311-8486-97772042d7ca)
+
+
+![Screenshot (1417)](https://github.com/user-attachments/assets/377bb6e0-7a8e-4d1c-a82b-29889c3b910d)
+
+
+
+![Screenshot (1418)](https://github.com/user-attachments/assets/56af1088-43bd-425b-a5ea-1dbd631a482f)
+
+![Screenshot (1419)](https://github.com/user-attachments/assets/a63cf8fa-dc5b-4168-ad3d-72bfc5772326)
+
+
+
+![Screenshot (1420)](https://github.com/user-attachments/assets/8c1ecbf5-658c-4813-873e-9370c3747f66)
+
+
+
+
