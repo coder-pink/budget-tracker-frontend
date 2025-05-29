@@ -48,6 +48,9 @@ const Budget = () => {
           <div className="bg-white p-6 rounded-xl shadow-lg">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-xl font-semibold text-gray-900">Set Monthly Budget</h2>
+
+           
+
               <CurrencyDollarIcon className="h-6 w-6 text-indigo-600" />
             </div>
             <BudgetForm month={new Date().toISOString().slice(0, 7)} refresh={fetchData} />
