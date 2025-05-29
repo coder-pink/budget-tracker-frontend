@@ -26,7 +26,12 @@ const processQueue = (error, token = null) => {
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('accessToken');
-    if (token) {
+    // if (token) {
+    //   config.headers.Authorization = `Bearer ${token}`;
+    // }
+    const publicRoutes = ['/auth/register', '/auth/login', '/auth/refresh-token'];
+    const isPublic = publicRoutes.some(route => config.url?.includes(route));
+     if (token && !isPublic) {
       config.headers.Authorization = `Bearer ${token}`;
     }
     return config;

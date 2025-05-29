@@ -21,6 +21,7 @@ const Login = () => {
 
   const onSubmit = async (data) => {
     try {
+       
       await login(data);
       toast.success('Login successful!');
       navigate('/dashboard');

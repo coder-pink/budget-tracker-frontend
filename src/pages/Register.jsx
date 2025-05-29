@@ -26,7 +26,7 @@ const Register = () => {
       await register(data);
        toast.success('Registration successful!');
 
-      await login({ email: data.email, password: data.password });
+      // await login({ email: data.email, password: data.password });
       // toast.success('Registration successful!');
       navigate('/dashboard');
     } catch (error) {

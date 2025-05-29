@@ -14,8 +14,11 @@ export const BudgetProvider = ({ children }) => {
   const [totalExpenses, setTotalExpenses] = useState(0);
   const [remainingBudget, setRemainingBudget] = useState(0);
   const [budgetProgress, setBudgetProgress] = useState(0);
+  
 
   const fetchData = useCallback(async () => {
+
+
     try {
       setLoading(true);
       const [budgetRes, expensesRes] = await Promise.all([
@@ -35,6 +38,9 @@ export const BudgetProvider = ({ children }) => {
       );
 
       setBudget(currentBudget || null);
+
+
+      
 
       const categoryData = expensesRes.data.transactions
         .filter(tx => tx.type === 'expense')
